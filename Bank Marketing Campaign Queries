@@ -1,0 +1,24 @@
+Total customers
+SELECT COUNT(*) AS total_customers
+FROM bank_marketing;
+
+Total subscriptions
+SELECT COUNT(*) AS total_subscriptions
+FROM bank_marketing
+WHERE deposit = 'yes';
+
+Conversion rate
+SELECT 
+  SUM(CASE WHEN deposit = 'yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*) AS conversion_rate
+FROM bank_marketing;
+
+Subscription by job
+SELECT job, COUNT(*) AS subscriptions
+FROM bank_marketing
+WHERE deposit = 'yes'
+GROUP BY job;
+
+Average balance by deposit outcome
+SELECT deposit, AVG(balance) AS avg_balance
+FROM bank_marketing
+GROUP BY deposit;
