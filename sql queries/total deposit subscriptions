@@ -1,0 +1,14 @@
+                                               Total Deposit Subscriptions
+
+            BUSINESS QUESTION:
+How many customers subscribed to term deposits as a result of this campaign?
+
+             Query:
+SELECT
+    COUNT(*) AS total_deposits
+FROM bank
+WHERE deposit = 'yes';
+
+             KEY FINDING:
+5,289 customers subscribed to term deposits, representing almost half of all contacted customers. This demonstrates 
+strong campaign performance and effective targeting.
