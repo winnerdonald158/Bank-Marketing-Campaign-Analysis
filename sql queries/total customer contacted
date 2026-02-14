@@ -1,0 +1,12 @@
+              BANK MARKETING CAMPAIGN ANALYSIS
+
+       BUSINESS QUESTION:
+How many customers were contacted during this marketing campaign?
+
+      QUERY 
+SELECT
+    COUNT(*) AS total_customers
+FROM bank;
+          
+      KEY FINDING:
+11,164 customers were contacted during the campaign.This represents the total addressable audience for conversion analysis.
