@@ -1,15 +1,17 @@
-                           Bank Marketing Campaign Analysis
+                                Bank Marketing Campaign Analysis
 
 SQL and Power BI analysis of 11,164 bank marketing contacts to evaluate campaign performance, identify high-converting customer segments, and optimize deposit conversion strategies.
 
-📊 Project Overview:
+                                 Project Overview:
 This project analyzes a bank marketing campaign dataset to identify which customer segments are most likely to subscribe to term deposits. Using SQL for data extraction and Power BI for visualization, I identified key factors driving an exceptional 47.38% conversion rate and provided actionable recommendations to replicate this success in future campaigns.
 
-Tools: SQL (MySQL) | Power BI Desktop
+                                  Tools:
+SQL (MySQL) | Power BI Desktop
 
-Skills Demonstrated: Data querying, aggregate functions, CASE statements, GROUP BY segmentation, conversion rate analysis, customer profiling, dashboard design
+                                Skills Demonstrated:
+Data querying, aggregate functions, CASE statements, GROUP BY segmentation, conversion rate analysis, customer profiling, dashboard design
 
-🎯 Business Objectives
+                               Business Objectives
 1. Measure overall campaign effectiveness (conversion rate, total subscriptions)
 2. Identify which customer segments convert best (job type, education, marital status)
 3. Analyze impact of existing financial obligations (loans) on deposit adoption
@@ -17,13 +19,13 @@ Skills Demonstrated: Data querying, aggregate functions, CASE statements, GROUP 
 5. Provide data-driven recommendations for future campaign optimization
 
 
- 📁 Repository Structure
-├── Bank Marketing Campaign Query    # SQL analysis queries with insights
-├── Bank Marketing Campaign dashboard.png    # Power BI dashboard
-└── README.md    # Project documentation
+                                 Repository Structure
+SQL analysis queries with insights
+Bank Marketing Campaign dashboard.png   
+README.md    
 
-💡 Key Findings
 
+                               Key Findings
 Campaign Performance
 - Total Customers Contacted: 11,164
 - Deposit Conversions: 5,289 subscriptions
@@ -41,15 +43,15 @@ Financial Behavior Patterns
 - Conversion by Month: Seasonal patterns identified with peak conversion months showing 90%+ rates
 - Balance Correlation: Higher account balances correlated with increased deposit likelihood
 
-📈 Dashboard Preview
+                              Dashboard Preview
 
-![Bank Marketing Dashboard](Bank%20Marketing%20Campaign%20dashboard.png)
+[Bank Marketing Dashboard](Bank%20Marketing%20Campaign%20dashboard.png)
 
 Interactive Power BI dashboard tracking campaign KPIs (11K customers, 47.38% conversion rate), customer segmentation by job type, education,
 and marital status, monthly conversion trends, and loan status impact analysis with dynamic filtering capabilities.
 
 
-🔍 Technical Approach
+                              Technical Approach
 
 SQL Analysis:
 - Aggregate functions (COUNT, AVG, SUM) to calculate campaign metrics
@@ -66,7 +68,7 @@ Power BI Visualization:
 - Scatter plot analyzing call duration impact on conversion
 - Interactive slicers for job, education, marital status, and month filtering
 
-💼 Business Recommendations
+                               Business Recommendations
 
 1. Replicate Success Factors: 47.38% conversion rate is exceptional. Document and replicate targeting criteria, messaging strategies, call scripts, and timing used in this campaign as organizational best practices.
 
@@ -80,9 +82,8 @@ Power BI Visualization:
 
 6. Call Duration Optimization: Average 6.2-minute call duration suggests consultative engagement. Analyze correlation between call length and conversion to determine if longer conversations drive better results or if efficiency can be improved.
 
-📫 Connect With Me
-
-**Winner Donald**  
+Connect With Me
+Winner Donald  
 📧 winnerdonald158@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/winner-donald)  
 💻 [GitHub](https://github.com/winnerdonald158)  
